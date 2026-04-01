@@ -8,8 +8,7 @@ Aplicacion web en Python/Streamlit que implementa los algoritmos de Dijkstra, Eu
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/TU_USUARIO/grafo-buga.git
-cd grafo-buga
+git clone https://github.com/SamuelCL-1203/grafo-buga.git
 ```
 
 ### 2. Crear entorno virtual (recomendado)
@@ -50,7 +49,7 @@ La app se abrira automaticamente en `http://localhost:8501`.
 |---|---|---|
 | Dijkstra | O((V + E) log V) | O(V) |
 | Euler (Hierholzer) | O(E) | O(E) |
-| Hamilton (Held-Karp) | O(n2 * 2n) | O(n * 2n) |
+| Hamilton (Held-Karp) | O(n^2 * 2^n) | O(n * 2^n) |
 
 ---
 
